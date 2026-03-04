@@ -15,19 +15,17 @@ public class Circle implements Shape {
 
     @Override
     public Circle() {
-        // Implement the code to calculate the perimeter
-        //Implement the code to calculate the Area
+        // Implement the code to calculate the perimeter, (Override)
+        
+        //Implement the code to calculate the Area, (Override)
         
 
     }
 
 
-
     public static void main(String[] args) {
 
-        
-        
-        // ...
+
 
     }
 }

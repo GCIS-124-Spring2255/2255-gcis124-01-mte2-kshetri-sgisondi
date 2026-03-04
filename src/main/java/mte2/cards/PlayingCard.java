@@ -4,7 +4,7 @@
 import java.util.Collection;
 package mte2.cards;
 
-public class PlayingCard implements Comparable<Rank,Suit> {
+public class PlayingCard implements Comparable<PlayingCard> {
     
     private final Suit suit;  // The suit of this card.
     private final Rank rank;  // The rank of this card.
@@ -23,8 +23,15 @@ public class PlayingCard implements Comparable<Rank,Suit> {
     public String toString() {    return rank + " of " + suit;    }
 
     @Override 
-    public int compareTo(playingcard other) {
-        return other;
+    public int compareTo(cardA, cardB) {
+        cardA.compareTo(cardB);
+        return cardA;
+    }
+
+    @Override
+    public int compareRank(Rank1, Rank 2) {
+        Rank1.compareTo(Rank2);
+        return rank1;
     }
 
     public static void main(String[] args) {

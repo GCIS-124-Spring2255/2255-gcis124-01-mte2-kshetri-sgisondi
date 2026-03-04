@@ -27,11 +27,13 @@ public class MyDeque<E> implements Deque<E> {
 
     // ... for dequeueFront ...
     public dequeueFront(E) {
+        return E;
 
     }
 
     // ... for dequeueBack ...
     public dequeueBack(E) {
+        return E;
 
     }
 
@@ -44,6 +46,7 @@ public class MyDeque<E> implements Deque<E> {
 
     // ... for iterator ...
     public Iterator<E> iterator() {
+        
 
 
     }

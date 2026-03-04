@@ -14,8 +14,9 @@ public class Rectangle implements Shape {
 
     public Rectangle(double length,double width, double perimeter, double area) { this.length = length;  this.width = width; this.perimeter = perimeter; this.area =area;}
 
-    // @Override
-    // @Override
+
+   // Implement the code to calculate the perimeter, (Override)
+  //Implement the code to calculate the Area, (Override)
     
     public static void main(String[] args) {
         
