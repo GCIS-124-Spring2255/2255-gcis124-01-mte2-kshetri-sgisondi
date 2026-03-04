@@ -16,8 +16,10 @@ public class Circle implements Shape {
     @Override
     public Circle() {
         // Implement the code to calculate the perimeter, (Override)
-        
+        // use 2*pi*r to calculate 
         //Implement the code to calculate the Area, (Override)
+        // use pi*r*r to calculate
+        
         
 
     }

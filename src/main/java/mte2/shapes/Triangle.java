@@ -17,6 +17,11 @@ public class Triangle implements Shape {
     @Override
     public double area() {    double p = perimeter()  / 2;    }
 
+    // Same as rectangle and circle use the formulas and override them
+    // use a+b+c to calculate perimeter
+    //use sqaure root of s(s-a)(s-b)(s-c) to find area
+
+    // I can see in my head what to do just cant rememeber how write it for these
     public static void main(String[] args) {
         
         // ...

@@ -16,7 +16,7 @@ public interface Deque<E> extends Iterable<E> {
     public int size();    
 
    public Iterator<E> iterator<E> {
-    throw UnsupportedOperationException()
+    throw UnsupportedOperationException();
    }
 
 }
