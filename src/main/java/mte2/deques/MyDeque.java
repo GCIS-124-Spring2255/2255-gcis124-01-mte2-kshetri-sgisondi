@@ -15,11 +15,13 @@ public class MyDeque<E> implements Deque<E> {
 
     // ... for enqueueFront ...
     public void enqueueFront(E element) {
+        add.element();
 
     }
 
     // ... for enqueueBack ...
     public void enqueueBack( E element) {
+        
 
     }
 
